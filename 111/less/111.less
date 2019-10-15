@@ -1,12 +1,111 @@
-.type-111{
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
+
+
+
+
+
+
+
+.formSearch{
+  border: 1px solid#777;
+  float: left;
 }
-.top-links-inner{
-  margin: 0;
-  padding: 0;
+
+.top {
+  font-size : 11px;
+  background: #f0f0ed;
+  padding: 10px 0px;
 }
+
+.dropdown {
+  line-height    : 1.4;
+  display        : block;
+  float          : left;
+  color          : #777;
+  text-decoration: none;
+
+  .mainmenubtn {
+    color     : #777;
+    background: #f0f0ed;
+    border    : none;
+    cursor    : pointer;
+  }
+
+  .wall {
+    padding-left : 4px;
+    padding-right: 4px;
+  }
+
+  a {
+    padding-left   : 4px;
+    text-decoration: none;
+    color          : #777;
+    cursor         : pointer;
+  }
+
+  a:hover {
+    padding-left: 4px;
+    text-decoration: none;
+    color          : #999
+  }
+
+  i {
+    color       : #777;
+    padding-left: 2px;
+  }
+
+  .dropdown-child {
+    display  : none;
+    min-width: 200px;
+    border   : 0px solid #777;
+
+    a {
+      text-decoration: none;
+      display        : block;
+      background     : white;
+      color          : #777;
+      text-transform : uppercase;
+      overflow       : hidden;
+    }
+  }
+}
+
+.dropdown:hover .dropdown-child {
+  display : block;
+  position: fixed;
+  width   : 50px;
+  height  : 50px;
+  z-index : 3;
+}
+
+.dropdown:hover .dropdown-child a:hover {
+  text-decoration: none;
+  display        : block;
+  color          : white;
+  background     : #777;
+  top            : 3%;
+  left           : 7%;
+}
+
+.thea {
+  text-decoration: none;
+  color          : #777;
+  float: right;
+  .wall {
+    padding-left : 4px;
+    padding-right: 4px;
+  }
+  a {
+    padding-left   : 4px;
+    text-decoration: none;
+    color          : #777;
+    cursor         : pointer;
+  }
+
+  a:hover {
+    padding-left: 4px;
+    text-decoration: none;
+    color          : #999
+  }
+
 }
