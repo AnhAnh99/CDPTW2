@@ -23,6 +23,10 @@ $less->compileFile('less/113.less', 'css/113.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/113.css" rel="stylesheet" type="text/css" />
+        <!-- Link Swiper's CSS -->
+        <link href="<?php echo $url_path ?>/css/swiper-4.5.1/swiper.min.css" rel="stylesheet" >
+        <script src="/js/swiper.min.js"></script>
+
         
         <?php
         if (!class_exists('lessc')) {
