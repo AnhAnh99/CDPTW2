@@ -64,8 +64,16 @@
                          <button type="submit" class="searchsubmit" data-translate="general.search.submit">Search</button>
                      </form> -->
                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="    width: 50%;
+                        height: 38px;
+    padding: 0 200px 0 15px;
+    border: 0;
+    border-radius-left : 20px;
+    background-color: transparent;
+    color: #777;
+    font-size: 13px;">
+                        
+                        <a href="#" data-val="all" class= data-translate="general.search.category" >Select category</a>
                     </form>
                  </div>
                  <div class="col-md-3"> 
