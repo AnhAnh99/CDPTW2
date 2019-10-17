@@ -1,30 +1,20 @@
-<div class="type-113">
-    <!-- Swiper -->
-  <div class="swiper-container">
+ <!-- Swiper -->
+<div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide one">
-        <img src="/images/slide-1.PNG" alt="">
-         <h2>
-         <span>
-            80% off for select items
-          </span>
-         </h2>
-      </div>
-      <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide one">
+        <div class="contentleft">
+            <h4>80% off for select items</h4>
+            <h3>fashion mega sale</h3>
+            <a href="#" class="btn btn-default">Shop Now</a></div>
+        </div>
+        <div class="swiper-slide two">
+        <div class="contentright">
+            <h4>up to 70% off</h4>
+            <h3>women’s hats</h3>
+            <a href="" class="btn btn-default">Shop Now</a></div>
+        </div>
+        
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
-  </div>
-
-  <!-- Swiper JS -->
-  <script src="/js/swiper.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
 </div>

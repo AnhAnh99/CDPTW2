@@ -18,14 +18,17 @@ $less->compileFile('less/113.less', 'css/113.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Module 111</title>
+        <title>Module 113</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/113.css" rel="stylesheet" type="text/css" />
         <!-- Link Swiper's CSS -->
         <link href="<?php echo $url_path ?>/css/swiper-4.5.1/swiper.min.css" rel="stylesheet" >
-        <script src="/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-3.4.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/113.js"></script>
 
         
         <?php
