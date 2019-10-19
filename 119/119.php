@@ -13,26 +13,33 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/117.less', 'css/117.css');
+$less->compileFile('less/119.less', 'css/119.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Module 111</title>
+        <title>Module 119</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/117.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/119.css" rel="stylesheet" type="text/css" />
+        <!-- Link Swiper's CSS -->
+        <link href="<?php echo $url_path ?>/css/swiper-4.5.1/swiper.min.css" rel="stylesheet" >
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-3.4.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/119.js"></script>
+
         
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/117.less', 'css/117.css');
+        $less->compileFile('less/119.less', 'css/119.css');
         ?>
     </head>
     <body >
-        <?php include '../117/117-content.php'; ?>
+        <?php include '../119/119-content.php'; ?>
     </body>
 </html>
