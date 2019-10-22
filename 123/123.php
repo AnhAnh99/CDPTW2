@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/117.less', 'css/117.css');
+$less->compileFile('less/123.less', 'css/123.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,17 +22,22 @@ $less->compileFile('less/117.less', 'css/117.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/117.css" rel="stylesheet" type="text/css" />
-        
+        <link href="<?php echo $url_path ?>/css/123.css" rel="stylesheet" type="text/css" />
+          <!-- Link Swiper's CSS -->
+          <link href="<?php echo $url_path ?>/css/swiper-4.5.1/swiper.min.css" rel="stylesheet" >
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-3.4.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/123.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/117.less', 'css/117.css');
+        $less->compileFile('less/123.less', 'css/123.css');
         ?>
     </head>
     <body >
-        <?php include '../117/117-content.php'; ?>
+        <?php include '../123/123-content.php'; ?>
     </body>
 </html>
