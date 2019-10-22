@@ -21,9 +21,10 @@ $less->compileFile('less/121.less', 'css/121.css');
         <title>Module 121</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.4.0/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/121.css" rel="stylesheet" type="text/css" />
-        
+        <script src="<?php echo $url_path ?>/js/jquery-3.4.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.4.0/bootstrap.min.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
