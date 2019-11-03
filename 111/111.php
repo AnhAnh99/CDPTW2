@@ -24,8 +24,10 @@ $less->compileFile('less/111.less', 'css/111.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/111.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
-        <script src="/libs/jquery-3.4.1/jquery.min.js"></script>
-        <script src="/js/bootstrap-3.4.0/bootstrap.min.js"></script>      
+        <script src="<?php echo $url_path ?>/libs/jquery-3.4.1/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.4.0/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/111.js"></script>
+      
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

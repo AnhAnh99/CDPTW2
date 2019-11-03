@@ -48,23 +48,10 @@
                  <div class="col-md-3">
                      <img alt="" src="images/logo.png">
                  </div>
-                 <div class="col-md-6">
-                     <!-- <form class="form-inline my-2 my-lg-0">
-                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 50%;
-                                height: 38px;
-                                padding: 0 200px 0 15px;
-                                border: 0;
-                                border-radius-left : 20px;
-                                background-color: transparent;
-                                color: #777;
-                                font-size: 13px;">
-                         <a href="#" data-val="all" class=data-translate="general.search.category">Select category</a>
-                     </form> -->
-                     <div class="box">
-                         <div class="container-1">
-                             <input type="search" id="search" placeholder="Search..." />
-                             <span class="icon"><i class="fa fa-search"></i></span>
-                            </div>
+                 <div class="col-md-6 box">
+                     <div class="container">
+                         <input type="search" id="search" placeholder="Search..." />
+                         <span class="icon"><i class="fa fa-search"></i></span>
                      </div>
                  </div>
                  <div class="col-md-3">
@@ -87,77 +74,20 @@
      </div>
      <div class="bot">
          <div class="container">
-             <div class="navbar">
+             <div class="topnav" id="myTopnav">
                  <a href="#">Home</a>
-                 <div class="dropdown">
-                     <button class="dropbtn">COLLECTIONS
-                         <i class="fa fa-caret-down"></i>
-                     </button>
-                     <div class="dropdown-content">
-                         <div class="row">
-                             <div class="column">
-                                 <h3>Category 1</h3>
-                                 <a href="#">Link 1</a>
-                                 <a href="#">Link 2</a>
-                                 <a href="#">Link 3</a>
-                             </div>
-                             <div class="column">
-                                 <h3>Category 2</h3>
-                                 <a href="#">Link 1</a>
-                                 <a href="#">Link 2</a>
-                                 <a href="#">Link 3</a>
-                             </div>
-                             <div class="column">
-                                 <h3>Category 3</h3>
-                                 <a href="#">Link 1</a>
-                                 <a href="#">Link 2</a>
-                                 <a href="#">Link 3</a>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="dropdown">
-                     <button class="dropbtn">PRODUCTS
-                         <i class="fa fa-caret-down"></i>
-                     </button>
-                     <div class="dropdown-content">
-                         <ul class="column">
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <a href="#"><img src="" alt=""></a>
-                     </div>
-                 </div>
-                 <div class="dropdown">
-                     <button class="dropbtn">PAGES
-                         <i class="fa fa-caret-down"></i>
-                     </button>
-                     <div class="dropdown-content">
-                         <ul class="column">
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <a href="#"><img src="" alt=""></a>
-                         </ul>
-                     </div>
-                 </div>
-                 <div class="dropdown">
-                     <button class="dropbtn">FEATURES
-                         <i class="fa fa-caret-down"></i>
-                     </button>
-                     <div class="dropdown-content">
-                         <ul class="column">
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <li> <a href="#">Link 1</a></li>
-                             <a href="#"><img src="" alt=""></a>
-                         </ul>
-                     </div>
-                 </div>
+                 <a  class="menu-has-children" hide="0">COLLECTIONS <i class="fa fa-caret-down"></i>
+                        <!-- <a href="#" class="sub-menu">PRODUCTS</a>
+                        <a href="#" class="sub-menu">PAGES</a>
+                        <a href="#" class="sub-menu">FEATURES </a> -->
+</a>
+                 <a href="#">PRODUCTS <i class="fa fa-caret-down"></i></a>
+                 <a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+                 <a href="#">FEATURES <i class="fa fa-caret-down"></i></a>
+                 <a href="javascript:void(0);" class="icon" hide="0" onclick="myFunction()">☰</a>
              </div>
          </div>
      </div>
  </div>
+
+ 
