@@ -1,0 +1,55 @@
+.type-125 {
+  color: #777;
+}
+.type-125 .title {
+  color: #378acc;
+  border-bottom: 3px solid #008acc;
+  padding: 1% 0;
+}
+.type-125 .left button {
+  background-color: #008acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  padding: 2% 0;
+  float: right;
+}
+.type-125 .left button:hover {
+  opacity: 0.8;
+}
+.type-125 .right a {
+  color: #777;
+  margin-top: -30%;
+}
+.type-125 .right label {
+  font-weight: normal;
+}
+.type-125 .right input[type=text],
+.type-125 .right input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.type-125 .right button {
+  background-color: #008acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  padding: 2% 0;
+  float: right;
+}
+.type-125 .right button:hover {
+  opacity: 0.8;
+}
+.type-125 .right .container {
+  padding: 0;
+}
+.type-125 .right span.psw {
+  float: right;
+  padding-top: 16px;
+}
