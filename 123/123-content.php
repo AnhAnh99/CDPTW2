@@ -1,42 +1,149 @@
 <div class="type-123">
-   <div class="container">
-        <!-- Swiper -->
+  <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-          <img src="./images/t-shirt.PNG" alt="">
-          <h3>Polo White</h3>
-          <div class="rating">
-            <i class="fa fa-star checked"></i>
-            <i class="fa fa-star checked"></i>
-            <i class="fa fa-star checked"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
+        <div class="container">
+          <img src="./images/Classic Crew Neck Sweatshirt.PNG" alt="">
+          <div class="title">
+            <span>Classic Crew Neck Sweatshirt</span>
           </div>
-          <div class="color">
-            <ul>
-              <li><img src="./images/green.PNG" alt=""></li>
-              <li><img src="./images/black.PNG" alt=""></li>
-              <li><img src="./images/brown.PNG" alt=""></li>
-              <li><img src="./images/blue.PNG" alt=""></li>
-              <li><img src="./images/grey.PNG" alt=""></li>
-            </ul>
+          <div class="rating e">
+            <form>
+              <input class="star star-1" id="star-1" type="radio" name="star" />
+              <label class="star star-1" for="star-1"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star" />
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star" />
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star" />
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-4" id="star-5" type="radio" name="star" />
+              <label class="star star-4" for="star-5"></label>
+            </form>
           </div>
-          
+          <div class="price">
+            <span>$12.80</span>
+          </div>
+          <div class="addcart">    
+            <a href="#"><i class="fas fa-shopping-bag"></i> Add to cart</a>
+          </div>
+        </div>
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-      <div class="swiper-slide">Slide 10</div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-   </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <img src="./images/Classic Sunglasses.PNG" alt="">
+          <div class="title">
+            <span>Classic Crew Neck Sweatshirt</span>
+          </div>
+          <div class="rating a">
+            <form>
+              <input class="star star-1" id="star-1" type="radio" name="star" />
+              <label class="star star-1" for="star-1"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star" />
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star" />
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star" />
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-4" id="star-5" type="radio" name="star" />
+              <label class="star star-4" for="star-5"></label>
+            </form>
+          </div>
+          <div class="price">
+            <span>$12.80</span>
+          </div>
+          <div class="addcart">    
+            <a href="#"><i class="fas fa-shopping-bag"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="swiper-slide">
+        <div class="container">
+          <img src="./images/Classic Woven.PNG" alt="">
+          <div class="title">
+            <span>Classic Crew Neck Sweatshirt</span>
+          </div>
+          <div class="rating b">
+            <form>
+              <input class="star star-1" id="star-1" type="radio" name="star" />
+              <label class="star star-1" for="star-1"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star" />
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star" />
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star" />
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-4" id="star-5" type="radio" name="star" />
+              <label class="star star-4" for="star-5"></label>
+            </form>
+          </div>
+          <div class="price">
+            <span>$12.80</span>
+          </div>
+          <div class="addcart">    
+            <a href="#"><i class="fas fa-shopping-bag"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <img src="./images/Drone 4G Camera.PNG" alt="">
+          <div class="title">
+            <span>Classic Crew Neck Sweatshirt</span>
+          </div>
+          <div class="rating c">
+            <form>
+              <input class="star star-1" id="star-1" type="radio" name="star" />
+              <label class="star star-1" for="star-1"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star" />
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star" />
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star" />
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-4" id="star-5" type="radio" name="star" />
+              <label class="star star-4" for="star-5"></label>
+            </form>
+          </div>
+          <div class="price">
+            <span>$12.80</span>
+          </div>
+          <div class="addcart">    
+            <a href="#"><i class="fas fa-shopping-bag"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <img src="./images/Faux Leather High-Top Sneakers.PNG" alt="" class="product">
+          <div class="title">
+            <span>Classic Crew Neck Sweatshirt</span>
+          </div>
+          <div class="rating d">
+            <form >
+              <input class="star star-1" id="star-1" type="radio" name="star"/>
+              <label class="star star-1" for="star-1"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star"/>
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star"/>
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star"/>
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-4" id="star-5" type="radio" name="star"/>
+              <label class="star star-4" for="star-5"></label>
+            </form>
+          </div>
+          <div class="price">
+            <span>$12.80</span>
+          </div>
+          <div class="addcart">    
+            <a href="#"><i class="fas fa-shopping-bag"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </div>

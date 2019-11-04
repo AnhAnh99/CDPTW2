@@ -23,16 +23,15 @@ $less->compileFile('less/123.less', 'css/123.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/123.css" rel="stylesheet" type="text/css" />
-        <!-- Font Awesome Icon Library -->
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome-4.7.0/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
         <!-- Link Swiper's CSS -->
         <link href="<?php echo $url_path ?>/css/swiper-4.5.1/swiper.min.css" rel="stylesheet" >
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" >
+        <link href="<?php echo $url_path ?>/css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/jquery-3.4.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/123.js"></script>
-
+        
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
