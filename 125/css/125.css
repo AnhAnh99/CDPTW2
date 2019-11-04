@@ -1,5 +1,6 @@
 .type-125 {
   color: #777;
+  padding: 2% 0;
 }
 .type-125 .title {
   color: #378acc;
@@ -14,13 +15,13 @@
   width: 30%;
   padding: 2% 0;
   float: right;
+  margin-top: 29%;
 }
 .type-125 .left button:hover {
   opacity: 0.8;
 }
 .type-125 .right a {
   color: #777;
-  margin-top: -30%;
 }
 .type-125 .right label {
   font-weight: normal;
