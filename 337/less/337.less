@@ -1,0 +1,386 @@
+.type-337{
+@font-face {
+  font-family: 'porto';
+  src        : url("../fonts/porto.eot?64334846");
+  src        : url("../fonts/porto.eot?64334846#iefix") format("embedded-opentype"), url("../fonts/porto.woff2?64334846") format("woff2"), url("../fonts/porto.woff?64334846") format("woff"), url("../fonts/porto.ttf?64334846") format("truetype"), url("../fonts/porto.svg?64334846#porto") format("svg");
+  font-weight: normal;
+  font-style : normal
+}
+
+[class^='icon-']::before,
+[class*=' icon-']::before {
+  display                : inline-block;
+  width                  : 1em;
+  margin-right           : .2em;
+  margin-left            : .2em;
+  font-family            : 'porto';
+  font-style             : normal;
+  font-variant           : normal;
+  font-weight            : normal;
+  line-height            : 1em;
+  text-align             : center;
+  text-decoration        : inherit;
+  text-transform         : none;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak                  : none
+}
+
+.icon-angle-up::before {
+  content: '\e81b'
+}
+
+.icon-angle-down::before {
+  content: '\e81c'
+}
+
+
+form {
+  margin-bottom: 3.5rem
+}
+
+.form-group {
+  margin-bottom: 1.4rem
+}
+
+.form-group .form-control,
+.form-group .select-custom {
+  margin-bottom: 0
+}
+
+.form-group .form-control+.form-control {
+  margin-top: 1rem
+}
+
+.form-group-sm {
+  max-width    : 480px;
+  margin-bottom: .9rem
+}
+
+.form-control {
+  max-width       : 480px;
+  height          : 4.8rem;
+  margin-bottom   : 1rem;
+  padding         : 1.25rem 1.5rem;
+  transition      : all .3s;
+  border          : 1px solid #e6e6e6;
+  border-radius   : 0;
+  background-color: #fff;
+  color           : #7a7d82;
+  font-family     : "Open Sans", sans-serif;
+  font-size       : 1.4rem;
+  font-weight     : 400;
+  line-height     : 1.5
+}
+
+.form-control:focus {
+  border-color    : #282d3b;
+  background-color: #fff;
+  color           : #7a7d82;
+  box-shadow      : none
+}
+
+.form-control-sm {
+  height   : 4.5rem;
+  padding  : 1.2rem 1.5rem;
+  font-size: 1.3rem
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: 4.8rem
+}
+
+select.form-control-sm:not([size]):not([multiple]) {
+  height: 4.5rem
+}
+
+label {
+  margin     : 0 0 .6rem;
+  color      : #6e7075;
+  font-size  : 1.4rem;
+  font-weight: 400
+}
+
+.select-custom {
+  position     : relative;
+  margin-bottom: 1rem
+}
+
+.select-custom select {
+  -webkit-appearance: none;
+  appearance        : none
+}
+
+.select-custom::after {
+  display          : inline-block;
+  position         : absolute;
+  top              : 50%;
+  right            : 1.9rem;
+  -webkit-transform: translateY(-51%);
+  transform        : translateY(-51%);
+  color            : #34373f;
+  font-family      : 'porto';
+  font-size        : 1.5rem;
+  content          : '\e81c'
+}
+
+.select-custom .form-control,
+.select-custom .form-control-sm {
+  padding-right: 4rem
+}
+
+.form-group-custom-control {
+  margin-top: 2rem
+}
+
+.form-group-custom-control .custom-control {
+  margin-top   : 0;
+  margin-bottom: 2rem
+}
+
+.form-group-custom-control+.form-group-custom-control {
+  margin-top: -.5rem
+}
+
+.form-group-custom-control .custom-control-label {
+  font-family   : "Open Sans", sans-serif;
+  font-weight   : 400;
+  letter-spacing: 0;
+  text-transform: initial
+}
+
+.custom-control-label {
+  position     : static;
+  margin-top   : .1rem;
+  margin-bottom: 0;
+  font-size    : 1.4rem
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+  top   : .4rem;
+  left  : 0;
+  width : 2rem;
+  height: 2rem
+}
+
+.custom-control-label::before {
+  border          : 1px solid #e6e6e6;
+  background-color: #fff
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  border-color    : #08c;
+  background-color: #08c;
+  color           : #282d3b
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+  background-color: #08c
+}
+
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: rgba(0, 136, 204, 0.5)
+}
+
+.custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
+  background-color: rgba(0, 136, 204, 0.5)
+}
+
+
+.btn {
+  min-width     : 124px;
+  padding       : 1.25rem 2rem;
+  transition    : all .3s;
+  border-radius : 0;
+  font-family   : "Oswald", sans-serif;
+  font-size     : 1.4rem;
+  letter-spacing: .075rem;
+  line-height   : 1.5;
+  text-transform: uppercase
+}
+
+.btn-sm {
+  min-width     : 90px;
+  padding       : 1rem 1.5rem;
+  font-size     : 1.3rem;
+  letter-spacing: 1px
+}
+
+.btn-link {
+  min-width     : 0;
+  padding-top   : 0;
+  padding-bottom: 0;
+  color         : #282d3b;
+  font-family   : "Open Sans", sans-serif;
+  font-size     : 13px;
+  letter-spacing: 0;
+  text-transform: initial
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color          : #282d3b;
+  text-decoration: underline
+}
+
+
+.btn-primary {
+  border-color    : #08c;
+  background-color: #08c;
+  color           : #fff;
+  box-shadow      : none
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+  border-color    : #00a3f5;
+  background-color: #00a3f5;
+  color           : #fff;
+  box-shadow      : none
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  border-color    : #08c;
+  background-color: #08c;
+  color           : #fff
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  border-color    : #005e8c;
+  background-color: #069;
+  color           : #fff
+}
+
+
+.table.table-size thead tr th,
+.table.table-size tbody tr td {
+  border        : 0;
+  color         : #21293c;
+  font-size     : 1.5rem;
+  letter-spacing: .005em;
+  text-transform: uppercase
+}
+
+.table.table-size thead tr th {
+  padding         : 2.8rem 1.5rem 1.7rem;
+  background-color: #f4f4f2;
+  font-weight     : 600
+}
+
+.table.table-size tbody tr td {
+  padding         : 1rem 1.5rem;
+  background-color: #fff;
+  font-weight     : 700
+}
+
+.table.table-size tbody tr td:first-child {
+  font-weight: 600
+}
+
+.table.table-size tbody tr:nth-child(2n) td {
+  background-color: #ebebeb
+}
+
+
+
+
+.cart-summary {
+  margin-bottom: 2.5rem;
+  padding      : 1.4rem 1.8rem 2.2rem;
+  border       : 1px solid #ddd;
+  background   : #fbfbfb
+}
+
+.cart-summary h3 {
+  margin-bottom: 1.3rem;
+  font-size    : 2.4rem;
+  font-weight  : 300
+}
+
+.cart-summary h4 {
+  margin-bottom : 0;
+  border-top    : 1px solid #ccc;
+  font-size     : 1.5rem;
+  font-weight   : 600;
+  text-transform: uppercase
+}
+
+.cart-summary h4 a {
+  display : block;
+  position: relative;
+  padding : 1rem 2rem 1rem 0;
+  color   : inherit
+}
+
+.cart-summary h4 a::after {
+  display    : inline-block;
+  position   : absolute;
+  top        : 50%;
+  right      : .4rem;
+  transform  : translateY(-50%);
+  font-family: 'porto';
+  font-size  : 1.4rem;
+  content    : '\e81b'
+}
+
+.cart-summary h4 a.collapsed::after {
+  content: '\e81c'
+}
+
+#total-estimate-section form {
+  margin-bottom: 0;
+  padding      : .7rem 0 2.2rem
+}
+
+.table.table-totals {
+  margin-bottom: 2rem;
+  border-top   : 1px solid #ccc
+}
+
+.table.table-totals tbody tr:first-child td {
+  padding-top: 1.6rem
+}
+
+.table.table-totals tr {
+  border: 0
+}
+
+.table.table-totals tr th,
+.table.table-totals tr td {
+  padding: .6rem 0;
+  border : 0
+}
+
+.table.table-totals tr th:last-child,
+.table.table-totals tr td:last-child {
+  text-align: right
+}
+
+.table.table-totals tfoot {
+  border-top : 1px solid #ccc;
+  font-size  : 1.8rem;
+  font-weight: 600
+}
+
+.table.table-totals tfoot tr td {
+  padding-top   : 1.3rem;
+  padding-bottom: 1.6rem
+}
+
+.table.table-totals tfoot tr td:last-child {
+  color: #2b2b2d
+}
+
+.checkout-methods .btn+.btn {
+  margin-top: 2.2rem
+}
+}
