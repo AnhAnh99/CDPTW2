@@ -1,4 +1,4 @@
- <div class="type1">
+ <div class="type-111">
      <div class="top">
          <div class="container">
              <div class="row">
@@ -11,7 +11,6 @@
                              <a href="#">GDP</a>
                          </div>
                          <span class="wall"> | </span>
-
                      </div>
                      <div class="dropdown">
                          <button class="mainmenubtn">
@@ -89,5 +88,4 @@
          </div>
      </div>
  </div>
-
  

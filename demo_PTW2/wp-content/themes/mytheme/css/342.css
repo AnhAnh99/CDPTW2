@@ -1,0 +1,295 @@
+.type-342 form {
+  margin-bottom: 3.5rem;
+}
+.type-342 .form-group {
+  margin-bottom: 1.4rem;
+}
+.type-342 .form-group .form-control {
+  margin-bottom: 0;
+}
+.type-342 .form-control {
+  max-width: 480px;
+  height: 4.8rem;
+  margin-bottom: 1rem;
+  padding: 1.25rem 1.5rem;
+  transition: all .3s;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background-color: #fff;
+  color: #7a7d82;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.type-342 .form-control:focus {
+  border-color: #282d3b;
+  background-color: #fff;
+  color: #7a7d82;
+  box-shadow: none;
+}
+.type-342 .form-control-sm {
+  height: 4.5rem;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.3rem;
+}
+.type-342 .main .form-control::-webkit-input-placeholder {
+  color: #7a7d82;
+}
+.type-342 .main .form-control::-moz-placeholder {
+  color: #7a7d82;
+}
+.type-342 .main .form-control:-ms-input-placeholder {
+  color: #7a7d82;
+}
+.type-342 .main .form-control::-ms-input-placeholder {
+  color: #7a7d82;
+}
+@media screen and (min-width: 768px) {
+  .type-342 form {
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .type-342 form {
+    margin-bottom: 5rem;
+  }
+}
+.type-342 .btn {
+  min-width: 124px;
+  padding: 1.25rem 2rem;
+  transition: all .3s;
+  border-radius: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: .075rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.type-342 .btn-primary {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+  box-shadow: none;
+}
+.type-342 .btn-primary:hover,
+.type-342 .btn-primary:focus {
+  border-color: #00a3f5;
+  background-color: #00a3f5;
+  color: #fff;
+  box-shadow: none;
+}
+.type-342 .btn-primary:disabled {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-342 .btn-primary:not(:disabled):not(.disabled):active,
+.type-342 .btn-primary:not(:disabled):not(.disabled).active {
+  border-color: #005e8c;
+  background-color: #069;
+  color: #fff;
+}
+.type-342 .product-single-tabs {
+  margin-bottom: 5.5rem;
+}
+.type-342 .product-single-tabs .tab-pane {
+  padding-top: 3.5rem;
+  color: #7b858a;
+  line-height: 1.92;
+}
+.type-342 .scrolling-box .tab-pane+.tab-pane {
+  margin-top: 3.5rem;
+  border-top: 2px solid #dae2e6;
+}
+.type-342 .product-tags-content h4 {
+  margin: 0 0 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.type-342 .product-tags-content form {
+  margin-bottom: 2rem;
+}
+.type-342 .product-tags-content .form-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+.type-342 .product-tags-content .form-control {
+  margin-right: 10px;
+}
+.type-342 .product-tags-content .btn {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.type-342 .ratings-table {
+  width: 100%;
+  margin: 20px 0 40px;
+  border: 1px solid #dae2e6;
+  border-spacing: 0;
+  font-size: 100%;
+  empty-cells: show;
+}
+.type-342 .ratings-table thead th,
+.type-342 .ratings-table tbody td {
+  border-right: 1px solid #dae2e6;
+  border-bottom: 1px solid #dae2e6;
+  line-height: 1.3;
+}
+@media (max-width: 600px) {
+  .type-342 .ratings-table thead th,
+  .type-342 .ratings-table tbody td {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+.type-342 .ratings-table input[type=radio] {
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .type-342 .ratings-table thead {
+    display: none;
+  }
+}
+.type-342 .ratings-table thead th {
+  padding: .8rem 1.5rem;
+  background-color: #f6f6f6;
+  color: #777;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.type-342 .ratings-table tbody td {
+  padding: 1.5rem 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.type-342 .ratings-table tbody td:first-child {
+  font-weight: 700;
+  text-align: left;
+}
+.type-342 .add-product-review h3 {
+  font-size: 1.8rem;
+}
+.type-342 .add-product-review form {
+  margin-bottom: 0;
+}
+.type-342 .featured-section {
+  padding-top: 3.8rem;
+  padding-bottom: 6rem;
+  background-color: #f4f4f4;
+}
+@media screen and (min-width: 992px) {
+  .type-342 .featured-section {
+    padding-top: 5.8rem;
+    padding-bottom: 8rem;
+  }
+  .type-342 .product-single-container .col-lg-7 {
+    -ms-flex: 0 0 55.56%;
+    flex: 0 0 55.56%;
+    max-width: 55.56%;
+  }
+  .type-342 .product-single-container .col-lg-5 {
+    -ms-flex: 0 0 44.44%;
+    flex: 0 0 44.44%;
+    max-width: 44.44%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .type-342 .product-single-gallery {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .type-342 .product-all-icons.product-action .product-single-qty {
+    margin-right: 50%;
+    margin-bottom: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .type-342 .featured-section {
+    padding-top: 4.8rem;
+    padding-bottom: 7rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .type-342 .product-tags-content .form-control {
+    width: 250px;
+  }
+}
+.type-342 .single-qty-wrapper .product-single-qty .bootstrap-touchspin .form-control:not(:focus) {
+  border-color: #dae2e6;
+}
+.type-342 .sidebar-toggle {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  transition: all .2s ease-in-out 0s;
+  border: #dcdcda solid 1px;
+  border-left-width: 0;
+  background: #fff;
+  font-size: 17px;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+}
+@media screen and (min-width: 992px) {
+  .type-342 .sidebar-toggle {
+    display: none;
+  }
+}
+.type-342 .product-size-content img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+.type-342 .table.table-size thead tr th,
+.type-342 .table.table-size tbody tr td {
+  border: 0;
+  color: #21293c;
+  font-size: 1.5rem;
+  letter-spacing: .005em;
+  text-transform: uppercase;
+}
+.type-342 .table.table-size thead tr th {
+  padding: 2.8rem 1.5rem 1.7rem;
+  background-color: #f4f4f2;
+  font-weight: 600;
+}
+.type-342 .table.table-size tbody tr td {
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  font-weight: 700;
+}
+.type-342 .table.table-size tbody tr td:first-child {
+  font-weight: 600;
+}
+.type-342 .table.table-size tbody tr:nth-child(2n) td {
+  background-color: #ebebeb;
+}
+@media screen and (min-width: 992px) {
+  .type-342 .table.table-size thead tr th {
+    padding-top: 4.2rem;
+    padding-bottom: 2.8rem;
+  }
+  .type-342 .table.table-size thead tr th,
+  .type-342 .table.table-size tbody tr td {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+}
+.type-342 .bootstrap-touchspin .form-control:not(:focus) {
+  border-color: #ccc;
+}
+.type-342 .mb-2 {
+  margin-bottom: 2rem !important;
+}
