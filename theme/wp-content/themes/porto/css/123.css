@@ -1,0 +1,356 @@
+html {
+  font-size: 62.5%;
+  font-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: ;
+  color: ;
+  font: normal 400 1.4rem/1.8 "Open Sans", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body:not(.loaded) >:not(.loading-overlay) {
+  visibility: hidden;
+}
+::-moz-selection {
+  background-color: ;
+  color: ;
+}
+::selection {
+  background-color: ;
+  color: ;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+strong {
+  font-weight: 700;
+}
+i {
+  font-style: italic;
+}
+h2 {
+  margin-bottom: 1.8rem;
+  color: ;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.1;
+  font-size: 2.2rem;
+}
+a {
+  transition: all .3s;
+  color: ;
+  text-decoration: none;
+}
+a:hover {
+  color: ;
+  text-decoration: underline;
+}
+a:focus {
+  color: ;
+  text-decoration: underline;
+  outline: none;
+}
+.type-123 {
+  @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800";
+  @import "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700";
+  @import "https://fonts.googleapis.com/css?family=Shadows+Into+Light";
+}
+@font-face {
+  font-family: 'porto';
+  src: url(../fonts/porto.eot?64334846);
+  src: url(../fonts/porto.eot?64334846#iefix) format("embedded-opentype"), url(../fonts/porto.woff2?64334846) format("woff2"), url(../fonts/porto.woff?64334846) format("woff"), url(../fonts/porto.ttf?64334846) format("truetype"), url(../fonts/porto.svg?64334846#porto) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.type-123 .light-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.type-123 .page-wrapper {
+  position: relative;
+  transition: transform .35s;
+}
+.type-123 .main {
+  flex: 1 1 auto;
+}
+.type-123 .main .form-control::-webkit-input-placeholder {
+  color: #7a7d82;
+}
+.type-123 .main .form-control::-moz-placeholder {
+  color: #7a7d82;
+}
+.type-123 .main .form-control:-ms-input-placeholder {
+  color: #7a7d82;
+}
+.type-123 .main .form-control::-ms-input-placeholder {
+  color: #7a7d82;
+}
+.type-123 .contact-info {
+  margin-bottom: 0;
+  margin-bottom: 3rem;
+  padding-top: .5rem;
+}
+.type-123 .contact-info >div {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+.type-123 .contact-info >div::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.type-123 .contact-info i {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 4.3rem;
+  height: 4.3rem;
+  float: left;
+  border-radius: .6rem;
+  background-color: #08c;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.type-123 .contact-info p {
+  margin-bottom: 0;
+  margin-left: 5.5rem;
+  line-height: 1.4;
+}
+.type-123 [class^='icon-']::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: .2em;
+  margin-left: .2em;
+  font-family: 'porto';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+.type-123 .icon-phone::before {
+  content: '\e80a';
+}
+.type-123 .icon-skype::before {
+  content: '\e827';
+}
+.type-123 .icon-mail-alt::before {
+  content: '\e82e';
+}
+.type-123 .icon-mobile::before {
+  content: '\e837';
+}
+.type-123 form {
+  margin-bottom: 3.5rem;
+}
+.type-123 .form-group {
+  margin-bottom: 1.4rem;
+}
+.type-123 .form-group .form-control {
+  margin-bottom: 0;
+}
+.type-123 .form-control {
+  max-width: 480px;
+  height: 4.8rem;
+  margin-bottom: 1rem;
+  padding: 1.25rem 1.5rem;
+  transition: all .3s;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background-color: #fff;
+  color: #7a7d82;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.type-123 .form-control:focus {
+  border-color: #282d3b;
+  background-color: #fff;
+  color: #7a7d82;
+  box-shadow: none;
+}
+.type-123 textarea.form-control {
+  max-width: 680px;
+  min-height: 176px;
+}
+.type-123 .form-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+.type-123 .form-footer .btn {
+  margin-right: 3rem;
+}
+.type-123 label {
+  margin: 0 0 .6rem;
+  color: #6e7075;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.type-123 .required-field >label::after {
+  margin: 0 0 0 .45rem;
+  color: #e02b27;
+  font-size: 1.2rem;
+  content: '*';
+}
+.type-123 .btn {
+  min-width: 124px;
+  padding: 1.25rem 2rem;
+  transition: all .3s;
+  border-radius: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: .075rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.type-123 .btn-primary {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+  box-shadow: none;
+}
+.type-123 .btn-primary:hover {
+  border-color: #00a3f5;
+  background-color: #00a3f5;
+  color: #fff;
+  box-shadow: none;
+}
+.type-123 .btn-primary:focus {
+  border-color: #00a3f5;
+  background-color: #00a3f5;
+  color: #fff;
+  box-shadow: none;
+}
+.type-123 .btn-primary:disabled {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-123 .btn-primary:not(:disabled):not(.disabled):active {
+  border-color: #005e8c;
+  background-color: #069;
+  color: #fff;
+}
+.type-123 .btn-primary:not(:disabled):not(.disabled).active {
+  border-color: #005e8c;
+  background-color: #069;
+  color: #fff;
+}
+.type-123 .btn-secondary:not(:disabled):not(.disabled):active {
+  border-color: #0e1015;
+  background-color: #13161d;
+  color: #fff;
+}
+.type-123 .btn-secondary:not(:disabled):not(.disabled).active {
+  border-color: #0e1015;
+  background-color: #13161d;
+  color: #fff;
+}
+.type-123 .btn-dark:not(:disabled):not(.disabled):active {
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
+}
+.type-123 .btn-dark:not(:disabled):not(.disabled).active {
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
+}
+.type-123 .btn-outline:not(:disabled):not(.disabled):active {
+  border-color: #08c;
+  background-color: transparent;
+  color: #282d3b;
+}
+.type-123 .btn-outline:not(:disabled):not(.disabled).active {
+  border-color: #08c;
+  background-color: transparent;
+  color: #282d3b;
+}
+.type-123 .btn-outline-secondary:not(:disabled):not(.disabled):active {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-123 .btn-outline-secondary:not(:disabled):not(.disabled).active {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-123 .btn-outline-dark:not(:disabled):not(.disabled):active {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-123 .btn-outline-dark:not(:disabled):not(.disabled).active {
+  border-color: #08c;
+  background-color: #08c;
+  color: #fff;
+}
+.type-123 .toolbox .form-control:not(:focus) {
+  border-color: #e4e4e4;
+}
+.type-123 .product-single-qty .bootstrap-touchspin .form-control:not(:focus) {
+  border-color: #dae2e6;
+}
+.type-123 .single-qty-wrapper .product-single-qty .bootstrap-touchspin .form-control:not(:focus) {
+  border-color: #dae2e6;
+}
+.type-123 button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.type-123 .bootstrap-touchspin .form-control:not(:focus) {
+  border-color: #ccc;
+}
+.type-123 .mb-8 {
+  margin-bottom: 8rem !important;
+}
+@media screen and (min-width: 768px) {
+  .type-123 h2 {
+    font-size: 2.4rem;
+  }
+  .type-123 form {
+    margin-bottom: 4rem;
+  }
+  .type-123 .form-footer {
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .type-123 .container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .type-123 .container {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .type-123 form {
+    margin-bottom: 5rem;
+  }
+  .type-123 .form-footer {
+    margin-bottom: 5rem;
+  }
+}
