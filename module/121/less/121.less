@@ -1,0 +1,320 @@
+.type-121 {
+	@color_1: #7a7d82;
+	@color_2: #fff;
+	@color_3: #282d3b;
+	@color_4: #8e8e8e;
+	@font_family_1: 'porto';
+	@background_color_1: #fff;
+	@background_color_2: #282d3b;
+	@background_color_3: #069;
+	@background_color_4: #13161d;
+	@background_color_5: #333;
+	@background_color_6: transparent;
+	@background_color_7: #08c;
+	@background_color_8: #ccc;
+	@border_color_1: #005e8c;
+	@border_color_2: #0e1015;
+	@border_color_3: #333;
+	@border_color_4: #08c;
+	@border_color_5: #e4e4e4;
+	@border_color_6: #dae2e6;
+	@border_color_7: #ccc;
+
+	@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800";
+	@import "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700";
+	@import "https://fonts.googleapis.com/css?family=Shadows+Into+Light";
+	@font-face {
+		font-family: 'porto';
+		src: url(../fonts/porto.eot?64334846);
+		src: url(../fonts/porto.eot?64334846#iefix) format("embedded-opentype"),url(../fonts/porto.woff2?64334846) format("woff2"),url(../fonts/porto.woff?64334846) format("woff"),url(../fonts/porto.ttf?64334846) format("truetype"),url(../fonts/porto.svg?64334846#porto) format("svg");
+		font-weight: 400;
+		font-style: normal;
+	}
+	html {
+		font-size: 62.5%;
+		font-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+	body {
+		background-color: @background_color_1;
+		color: @color_1;
+		font: normal 400 1.4rem / 1.8 "Open Sans",sans-serif;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		overflow-x: hidden;
+		&:not(.loaded) {
+			> {
+				&:not(.loading-overlay) {
+					visibility: hidden;
+				}
+			}
+		}
+	}
+	&::-moz-selection {
+		background-color: @background_color_2;
+		color: @color_2;
+	}
+	&::selection {
+		background-color: @background_color_2;
+		color: @color_2;
+	}
+	ol {
+		margin: 0 0 2.25rem;
+		padding: 0;
+		list-style: none;
+	}
+	i {
+		font-style: italic;
+	}
+	a {
+		transition: all .3s;
+		color: @color_3;
+		text-decoration: none;
+		&:hover {
+			color: @color_3;
+			text-decoration: underline;
+		}
+		&:focus {
+			color: @color_3;
+			text-decoration: underline;
+			outline: none;
+		}
+	}
+	.page-wrapper {
+		position: relative;
+		transition: transform .35s;
+	}
+	.main {
+		flex: 1 1 auto;
+	}
+	.breadcrumb-nav {
+		margin-bottom: 0;
+		.container {
+			padding: 0;
+		}
+	}
+	.breadcrumb {
+		margin-top: -1rem;
+		margin-bottom: 0;
+		padding: 1.4rem 1.5rem 1.2rem;
+		border-radius: 0;
+		background-color: @background_color_1;
+	}
+	.breadcrumb-item {
+		font: 400 1.2rem/1.4 "Open Sans",sans-serif;
+		letter-spacing: .025rem;
+		text-transform: capitalize;
+		i {
+			margin-top: -.2rem;
+			font-size: 1.3rem;
+			vertical-align: top;
+			&::before {
+				margin: 0;
+			}
+		}
+		a {
+			color: @color_4;
+		}
+	}
+	.breadcrumb-item&+.breadcrumb-item {
+		padding-left: 1rem;
+		&::before {
+			margin-top: -.3rem;
+			padding-right: 1rem;
+			color: @color_4;
+			font-family: @font_family_1;
+			font-size: 1.3rem;
+			content: '\e81a';
+			vertical-align: middle;
+		}
+	}
+	.breadcrumb-item.active {
+		color: @color_4;
+	}
+	[class^='icon-'] {
+		&::before {
+			display: inline-block;
+			width: 1em;
+			margin-right: .2em;
+			margin-left: .2em;
+			font-family: @font_family_1;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 400;
+			line-height: 1em;
+			text-align: center;
+			text-decoration: inherit;
+			text-transform: none;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			speak: none;
+		}
+	}
+	.icon-home {
+		&::before {
+			content: '\e883';
+		}
+	}
+	.btn-primary {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_1;
+					background-color: @background_color_3;
+					color: @color_2;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_1;
+				background-color: @background_color_3;
+				color: @color_2;
+			}
+		}
+	}
+	.btn-secondary {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_2;
+					background-color: @background_color_4;
+					color: @color_2;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_2;
+				background-color: @background_color_4;
+				color: @color_2;
+			}
+		}
+	}
+	.btn-dark {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_3;
+					background-color: @background_color_5;
+					color: @color_2;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_3;
+				background-color: @background_color_5;
+				color: @color_2;
+			}
+		}
+	}
+	.btn-outline {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_4;
+					background-color: @background_color_6;
+					color: @color_3;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_4;
+				background-color: @background_color_6;
+				color: @color_3;
+			}
+		}
+	}
+	.btn-outline-secondary {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_4;
+					background-color: @background_color_7;
+					color: @color_2;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_4;
+				background-color: @background_color_7;
+				color: @color_2;
+			}
+		}
+	}
+	.btn-outline-dark {
+		&:not(:disabled) {
+			&:not(.disabled) {
+				&:active {
+					border-color: @border_color_4;
+					background-color: @background_color_7;
+					color: @color_2;
+				}
+			}
+			&:not(.disabled).active {
+				border-color: @border_color_4;
+				background-color: @background_color_7;
+				color: @color_2;
+			}
+		}
+	}
+	.toolbox {
+		.form-control {
+			&:not(:focus) {
+				border-color: @border_color_5;
+			}
+		}
+	}
+	.product-single-qty {
+		.bootstrap-touchspin {
+			.form-control {
+				&:not(:focus) {
+					border-color: @border_color_6;
+				}
+			}
+		}
+	}
+	.single-qty-wrapper {
+		.product-single-qty {
+			.bootstrap-touchspin {
+				.form-control {
+					&:not(:focus) {
+						border-color: @border_color_6;
+					}
+				}
+			}
+		}
+	}
+	#map {
+		height: 280px;
+		margin-bottom: 4rem;
+		background-color: @background_color_8;
+	}
+	.bootstrap-touchspin {
+		.form-control {
+			&:not(:focus) {
+				border-color: @border_color_7;
+			}
+		}
+	}
+	.mb-8 {
+		margin-bottom: 8rem !important;
+	}
+	@media screen and (min-width: 1280px) {
+		.container {
+			max-width: 1200px;
+		}
+	}
+	@media screen and (max-width: 991px) {
+		.container {
+			max-width: 100%;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		#map {
+			height: 380px;
+			margin-bottom: 5rem;
+		}
+	}
+	@media screen and (min-width: 992px) {
+		#map {
+			height: 460px;
+			margin-bottom: 6rem;
+		}
+	}
+
+}

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "porto";
+  src: url("../fonts/porto.eot?64334846");
+  src: url("../fonts/porto.eot?64334846#iefix") format("embedded-opentype"), url("../fonts/porto.woff2?64334846") format("woff2"), url("../fonts/porto.woff?64334846") format("woff"), url("../fonts/porto.ttf?64334846") format("truetype"), url("../fonts/porto.svg?64334846#porto") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  font-family: "porto";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+.type-131 .info-section {
+  background-color: #f7f7f7;
+  padding-bottom: 3.6rem;
+  padding-top: 6rem;
+}
+.type-131 .feature-box {
+  background-color: #ffffff;
+  color: #7b858a;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+  padding: 2rem 2.5rem;
+  width: 100%;
+}
+.type-131 .feature-box i {
+  color: #0088cc;
+  display: inline-block;
+  font-size: 5rem;
+  line-height: 1;
+  margin-bottom: 2.2rem;
+}
+.type-131 .feature-box i:before {
+  margin: 0;
+}
+.type-131 .feature-box h3 {
+  color: #21293c;
+  font: 600 1.8rem/1.1 "Open Sans", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 2rem;
+}
+.type-131 .feature-box p {
+  margin-bottom: 0;
+}
+.type-131 .feature-box-content {
+  color: #7b858a;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+.type-131 .feature-box-simple {
+  background-color: transparent;
+  color: #687176;
+  font-size: 1.3rem;
+  line-height: 1.9;
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+.type-131 .feature-box-simple .feature-box-content {
+  color: inherit;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+.type-131 .feature-box-simple i {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  color: #0088cc;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 4rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.type-131 .feature-box-simple i.icon-paper-plane:before {
+  margin-left: -0.5rem;
+}
+.type-131 .feature-box-simple h3 {
+  color: #2b2b2d;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 2.6rem;
+  text-transform: uppercase;
+}
+.type-131 .feature-box-simple h3 span {
+  color: #465157;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+}
+.type-131 .feature-box-simple p {
+  margin-bottom: 0;
+  max-width: 340px;
+  min-height: 0 !important;
+}
+.type-131 .feature-box-simple .btn {
+  font-size: 1.3rem;
+  min-width: 125px;
+  padding: 1rem;
+}
+.type-131 .feature-box-simple.text-center p {
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-131 .icon-us-dollar::before {
+  content: "\e879";
+}
+.type-131 .icon-credit-card::before {
+  content: "\e88c";
+}
+.type-131 .icon-earphones-alt::before {
+  content: "\e88b";
+}
+.type-131 .icon-action-undo::before {
+  content: "\e88d";
+}
