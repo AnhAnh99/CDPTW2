@@ -1,5 +1,10 @@
 
+
 <?php
+/*
+ * Template Name: Porto - index
+ * Template Post Type: post, page, product
+ */
 get_header();
 
 

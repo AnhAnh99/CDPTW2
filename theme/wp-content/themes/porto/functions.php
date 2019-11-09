@@ -4,7 +4,6 @@
  */
 function your_theme_enqueue_scripts()
 {
-    // all styles
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap-v3.3.6.min.css');
     wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css');
     wp_enqueue_style('swiper', get_stylesheet_directory_uri() . '/css/swiper.min.css');

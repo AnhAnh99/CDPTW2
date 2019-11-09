@@ -1,6 +1,7 @@
 <?php
 /*
- * Template Name: Porto - Contact
+ * Template Name: Porto - contact
+ * Template Post Type: post, page, product
  */
 
 get_header();
