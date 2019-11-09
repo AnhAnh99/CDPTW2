@@ -1,6 +1,7 @@
 <?php
 /*
- * Template Name: Porto - Product-sticky-both
+ * Template Name: Porto - product-sticky-both
+ * Template Post Type: post, page, product
  */
 
 get_header();

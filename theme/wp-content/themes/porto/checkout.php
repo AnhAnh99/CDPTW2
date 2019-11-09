@@ -1,6 +1,7 @@
 <?php
 /*
- * Template Name: Porto - Checkout
+ * Template Name: Porto - checkout
+ * Template Post Type: post, page, product
  */
 
 get_header();
