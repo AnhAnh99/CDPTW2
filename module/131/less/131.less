@@ -1,0 +1,153 @@
+@import "../var/var.less";
+@font-face {
+  font-family: "porto";
+  src: url("../fonts/porto.eot?64334846");
+  src: url("../fonts/porto.eot?64334846#iefix") format("embedded-opentype"),
+    url("../fonts/porto.woff2?64334846") format("woff2"),
+    url("../fonts/porto.woff?64334846") format("woff"),
+    url("../fonts/porto.ttf?64334846") format("truetype"),
+    url("../fonts/porto.svg?64334846#porto") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  font-family: "porto";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+
+
+.type-131 {
+	.info-section {
+		background-color: @background_color_1;
+		padding-bottom: 3.6rem;
+		padding-top: 6rem;
+	}
+	.feature-box {
+		background-color: @background_color_2;
+		color: @color_1;
+		font-size: 1.5rem;
+		line-height: 2;
+		margin-bottom: 3rem;
+		padding: 2rem 2.5rem;
+		width: 100%;
+		i {
+			color: @color_2;
+			display: inline-block;
+			font-size: 5rem;
+			line-height: 1;
+			margin-bottom: 2.2rem;
+			&:before {
+				margin: 0;
+			}
+		}
+		h3 {
+			color: @color_3;
+			font: 600 1.8rem/1.1 "Open Sans", sans-serif;
+			letter-spacing: 0;
+			margin-bottom: 2rem;
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.feature-box-content {
+		color: @color_1;
+		font-size: 1.5rem;
+		line-height: 1.8;
+	}
+	.feature-box-simple {
+		background-color: @background_color_3;
+		color: @color_4;
+		font-size: 1.3rem;
+		line-height: 1.9;
+		margin-bottom: 2.5rem;
+		padding: 0;
+		.feature-box-content {
+			color: @color_5;
+			font-size: 1.3rem;
+			line-height: 1.8;
+		}
+		i {
+			-ms-flex-align: center;
+			-ms-flex-pack: center;
+			align-items: center;
+			color: @color_2;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			font-size: 4rem;
+			justify-content: center;
+			margin-bottom: 2.5rem;
+		}
+		i.icon-paper-plane {
+			&:before {
+				margin-left: -0.5rem;
+			}
+		}
+		h3 {
+			color: @color_6;
+			font-size: 1.6rem;
+			font-weight: 700;
+			letter-spacing: 0;
+			margin-bottom: 2.6rem;
+			text-transform: uppercase;
+			span {
+				color: @color_7;
+				display: block;
+				font-size: 1.4rem;
+				font-weight: 400;
+				margin-top: 0.5rem;
+				text-transform: capitalize;
+			}
+		}
+		p {
+			margin-bottom: 0;
+			max-width: 340px;
+			min-height: 0 !important;
+		}
+		.btn {
+			font-size: 1.3rem;
+			min-width: 125px;
+			padding: 1rem;
+		}
+	}
+	.feature-box-simple.text-center {
+		p {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.icon-us-dollar {
+		&::before {
+			content: "\e879";
+		}
+	}
+	.icon-credit-card {
+		&::before {
+			content: "\e88c";
+		}
+	}
+	.icon-earphones-alt {
+		&::before {
+			content: "\e88b";
+		}
+	}
+	.icon-action-undo {
+		&::before {
+			content: "\e88d";
+		}
+	}
+}
